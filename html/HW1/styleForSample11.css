@@ -1,0 +1,28 @@
+h1{
+    color:rgb(22, 106, 241);
+    font-family: 'Impact';
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px gray;
+    
+}
+h4{
+    color:rgb(31, 115, 224);
+    font-family: 'Montserrat';
+    font-weight: 10;
+    
+}
+p1{
+    color:rgb(100, 99, 99);
+    font-weight: 1000;
+    letter-spacing: -1px;
+}
+h3{
+    color:rgb(0, 136, 255);
+    letter-spacing: -1px;
+}
+p2{
+    color:gray;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+}
+
