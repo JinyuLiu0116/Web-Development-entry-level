@@ -1,0 +1,19 @@
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+p{
+    color:lightslategray;
+    display: flex;
+    justify-content: center;
+}
