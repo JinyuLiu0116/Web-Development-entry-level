@@ -1,0 +1,49 @@
+html{
+    background-color: rgb(234, 231, 231);
+}
+h1{
+    color:rgb(104, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color:rgb(137, 139, 141);
+    font-family: Arial, sans-serif;
+}
+li{
+    color:rgb(137, 139, 141);
+    font-family: Arial, sans-serif;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25xp 0;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.content-table thead tr{
+    background-color: rgb(104, 157, 206);
+    color:white;
+    font-family: 'Franklin Gothic Medium Narrow', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(39, 82, 122) ;
+}
+.content-table thead th{
+    border-right: 2px solid rgb(87, 132, 173) ;
+}
+.content-table th,
+.content-table td{
+    padding: 5px 15px;
+    
+}
+.content-table tbody tr,td{
+    border-bottom: 1px solid rgb(184, 180, 180);
+    border-right: 1px solid rgb(184, 180, 180);
+}
+.content-table tbody tr:nth-of-type(odd){
+    background-color: rgb(184, 212, 241);
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: rgb(214, 231, 249);
+}
