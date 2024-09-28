@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-height: 100vh;
+    margin: 0;
+}
+body{
+    font-family: Georgia, Times, serif;
+    color: #373737;
+}
+.content{
+    width: 400px;
+    margin:auto;
+    margin-bottom: 30vh;
+    margin-top: 29vh;
+    text-align: center;
+}
+h1#logo{
+    height: 90px;
+    padding: 4px;
+    background: url("googlelogo_color_272x92dp.png") top left no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+input[type="search"]{
+    width: 360px;
+    height: 30px;
+    margin: 25px 5px 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    border-radius: 25px;
+    background-position: center;
+}
+input[type="search"]:hover{
+    border-color: #aaa;
+}
+input[type="submit"]{
+    background: #eee;
+    border: solid 1px #ccc;
+    padding: 4px;
+    font-size: 10px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ccc;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.left-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+}
+.right-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 5px;
+}
+.left-botton{
+    width: 50%;
+    background-color:rgb(206, 202, 202);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 5px;
+}
+.right-botton{
+    text-align: right;
+    width:50%;
+    background-color:rgb(206, 202, 202);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 5px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+    font-size:0.8em;
+}
+#link{
+    color: rgb(45, 106, 238);
+}
