@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0;}
+html{
+    background-color:  rgb(73, 123, 98);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
+header{
+    text-align: center;
+    background-color: white;
+    height: 50%;
+}
+header ul{
+    font-size:small;
+    list-style-type: none;
+    padding-bottom: 3%;
+}
+li{
+    display: inline;
+    border-right: 2px solid rgb(32, 124, 95);
+    padding-right: 17px;
+    padding-left: 17px;
+}
+#topLi_last {
+    border-right: none;
+}
+a{
+    padding: 5px;
+    color: rgb(6, 160, 111);
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:hover{
+    background-color: rgba(185, 146, 82, 1.00);
+}
+#my_logo{
+    width: 10vh;
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+footer img{
+    position: absolute;
+    right:20%;
+    bottom: 10px;
+    height: auto;
+    max-width: 150px;
+    float: right;
+    vertical-align: sub;
+}
+section{
+    width: 960px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size:xx-large;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+#my_banner h2{
+    text-align: center;
+}
+#my_banner p, h2{
+    color: rgb(85, 64, 64);
+    font-family: 'Times New Roman', Times, serif;
+}
+#my_banner {
+    background-color:  rgb(73, 123, 98);
+    padding-top: 20px;
+    padding-bottom: 202px;
+    width: auto;
+}
+.main-images{
+    text-align: center;
+}
+.main-images img{
+    width: 30vh;
+    margin:10px;
+}
+footer ul{
+    list-style-type: none;
+    font-size: smaller;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+footer nav{
+    text-transform: none;
+}
+footer li{
+    display: inline-block;
+    border-right: 2px solid white;
+    padding-right: 2px;
+    padding-left: 0px;
+}
+#li_last {
+    border-right: none;
+}
+footer a{
+    padding: 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: 0.56;
+}
+footer a:hover {
+    background-color: transparent;
+}
+footer p{
+    font-size: smaller;
+    padding-left: 1em;
+    color:aliceblue;
+    padding-bottom: 15px;
+}
