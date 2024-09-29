@@ -1,22 +1,28 @@
-*{margin: 0px; padding: 0px;}
+*{margin: 0; padding: 0;}
 html{
-    background-color: rgb(45, 176, 108);
-    margin: 0px;
-    padding: 0px;
+    background-color:  rgb(73, 123, 98);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+body{
+    position: relative;
 }
 header{
     text-align: center;
     background-color: white;
-    height: 225px;
+    height: 50%;
 }
-ul{
+header ul{
+    font-size:small;
     list-style-type: none;
-    margin:0px;
-    padding: 0px;
+    padding-bottom: 3%;
 }
 li{
     display: inline;
-    border-right: 2px solid rgb(6, 160, 111);;
+    border-right: 2px solid rgb(32, 124, 95);
     padding-right: 17px;
     padding-left: 17px;
 }
@@ -34,12 +40,18 @@ a:hover{
     background-color: rgba(185, 146, 82, 1.00);
 }
 #my_logo{
+    width: 10vh;
     display: block;
     margin: auto;
-    padding-bottom: 45px;
-    padding-top: 20px;
+    padding-bottom: 5%;
+    padding-top: 10%;
 }
 footer img{
+    position: absolute;
+    right:20%;
+    bottom: 10px;
+    height: auto;
+    max-width: 150px;
     float: right;
     vertical-align: sub;
 }
@@ -51,30 +63,31 @@ h1{
     text-align: center;
     color: rgb(85, 64, 64);
     font-family: sans-serif;
-    font-size: 48px;
-    margin: 0px;
+    font-size:x-large;
+    margin-bottom: 10px;
 }
-#my_banner p{
+#my_banner h2{
     text-align: center;
+}
+#my_banner p, h2{
     color: rgb(85, 64, 64);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin: 0px;
 }
 #my_banner {
-    background-image: none;
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: center;
-    padding-top: 248px;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
     padding-bottom: 202px;
     width: auto;
 }
 footer ul{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    font-size: smaller;
+    padding-top: 2em;
+    padding-left: 1em;
 }
 footer nav{
     text-transform: none;
@@ -95,6 +108,28 @@ footer a{
     color: white;
     transition: 0.56;
 }
-fotter a:hover {
+footer a:hover {
     background-color: transparent;
+}
+footer p{
+    font-size: smaller;
+    padding-left: 1em;
+    color:aliceblue;
+    padding-bottom: 15px;
+}
+.container{
+    
+    font-size: medium;
+    width:100%;
+}
+.text-clo{
+    margin-top: 10px;
+    margin-left: 5%;
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+img{
+    max-width: 100px;
+    margin: 10px;
 }
