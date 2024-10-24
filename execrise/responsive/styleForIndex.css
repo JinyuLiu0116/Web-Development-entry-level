@@ -1,1 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height:900px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outside{
+    position: relative;
+    background-image: url(food.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+}
+#inside{
+    position: absolute;
+    background-image: url(paper.jpg);
+    width: 30%;
+    height: 70%;
+    top:5%;
+    left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(93, 21, 21);
+    
+    flex-direction: column;
+    justify-content: center; 
+}
+h2{
+    text-align: center;
+    margin: 40px 0;
+}
+select,input,h4{
+    text-align: left;
+    margin-left: 20px;
+    left: 15px;
+    
+}
+select,input,label{
+    
+    left: 20px;
+    
+    margin: 15px 0 20px 0;
+    height: 7%;
+}
+select{
+    position: relative;
+    color: brown;
+}
+option{
+    color: brown;
+}
+#buttom{
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 11%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(93, 21, 21);
+}
 
+#number1{
+    position: relative;
+    
+    width: 20%;
+}
+#number2{
+    position: relative;
+    left: 20px;
+    width: 20%;
+}
+#money {
+    position: relative;
+    
+    left: 20px;
+}
+
+#people{
+    position: relative;
+}
+
+@media screen and (max-width: 680px)
+{
+    
+    #inside{
+        
+        width: 60%;
+        height: 70%;
+        top:10%;
+        left: 20%;
+    }
+}
