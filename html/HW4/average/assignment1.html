@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User name</title>
+    </head>
+    <body>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id = "lastName" required><br>
+
+            <button type = "button" onclick="displayUserInfo()">Display</button>
+        </form>
+        <script>
+            function displayUserInfo(){
+                const firstName = document.getElementById("firstName").value;
+                const lastName = document.getElementById("lastName").vallue;
+                const funllName = firstName + " " + lastName;
+
+                alert("Your First Name: "+firstName+"\nYour Last Name: "+lastName+"\nYour complete Name: "+funllName);
+            }
+        </script>
+    </body>
+</html>
