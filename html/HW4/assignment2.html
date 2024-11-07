@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What is the weather?</title>
+    </head>
+    <body>
+        <h2>Tell me about the weather</h2>
+        raining, snowing, windy, sunny or humid 
+        <form>
+            <label for="weather">Raining</label>
+            <input type="radio" id = "weather" value="1" required><br>
+
+            <label for="weather">snowing</label>
+            <input type="radio" id = "weather" value="2" required><br>
+
+            <label for="weather">windy</label>
+            <input type="radio" id = "weather" value="3" required><br>
+
+            <label for="weather">sunny</label>
+            <input type="radio" id = "weather" value="4" required><br>
+
+            <label for="weather">humid</label>
+            <input type="radio" id = "weather" value="5" required><br>
+
+            <button type="button" onclick="displayWeather()">Display</button>
+        </form>
+        <script>
+            function displayWeather(){
+                const input = parseInt(document.getElementById("weather").value);
+                var weather;
+                switch(input){
+                    case 1: weather = "raining";
+                    break;
+                    case 2: weather = "snowing";
+                    break;
+                    case 3: weather = "windy";
+                    break;
+                    case 4: weather = "sunny";
+                    break;
+                    case 5: weather = "humid";
+                    default: weather = "There is no default case";
+                    break;
+                }
+                alert("Outside is "+weather+"!\n");
+            }
+        </script>
+    </body>
+</html>
