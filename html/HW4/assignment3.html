@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Let's see your life!</title>
+    </head>
+    <body>
+        <h2>Enter your age to convert</h2>
+        <form>
+            <label for="userAge">Age: </label>
+            <input type="number" id="userAge" required><br><br>
+
+            <button type="button" onclick="ageConversion()">Click</button>
+        </form>
+        <script>
+            function ageConversion(){
+                const inputAge = parseInt(document.getElementById("userAge").value);
+                
+                const inDays = inputAge * 365;
+                const inWeeks = Math.round(inDays / 7);
+                const inMinutes = inDays * 24 * 60;
+                const inSeconds = inMinutes * 60;
+
+                const choice = window.prompt("Type weeks, days, minutes, or seconds, then click OK");
+                if(choice === "weeks"){
+                    console.log("You have been alive in "+inWeeks+" weeks!");
+                }
+                else if(choice === "days"){
+                    console.log("You have been alive in "+inDays+" days!");
+                }
+                else if(choice === "minutes"){
+                    console.log("You have been alive in "+inMinutes+" minutes!");
+                }
+                else if(choice === "seconds"){
+                    console.log("You have been alive in "+inSeconds+" seconds!");
+                }
+            }
+        </script>
+    </body>
+</html>
